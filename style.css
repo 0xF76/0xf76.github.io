@@ -1,0 +1,30 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  height: 80vh;
+  width: 100vw;
+  background-attachment: fixed;
+}
+
+.panel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
