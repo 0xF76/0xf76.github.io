@@ -18,13 +18,19 @@ canvas {
 }
 
 .panel {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.squarebox {
+  background-color: rgba(25, 25, 27, 0.9);
+  height: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
