@@ -293,4 +293,22 @@ footer {
   .section-subtitle {
     display: none;
   }
+  .squarebox {
+    width: 300px !important	;
+    height: 300px;
+  }
+  .basic-info-ul {
+    display: none;
+  }  
+}
+
+@media screen and (max-width: 800px){
+  .col-7 {
+    width: 100%;
+  }
+  .interests-row {
+    display: flex;
+    flex-direction: column;
+    
+  }
 }
