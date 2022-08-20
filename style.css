@@ -224,9 +224,20 @@ li span:last-child {
   color: #fec544;  
 }
 
+@keyframes test {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
 .card:hover {
   color: #fec544;
   box-shadow: 0 0 5px #fec544;
+  animation: test 0.5s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .card h2 {
